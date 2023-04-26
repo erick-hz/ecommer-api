@@ -54,9 +54,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-With direct and group chats, emojis and reactions, built-in Gif support, the ability to edit and delete messages, specialized commands, and much more, this fully responsive Medical Pager.
-
-GetStream.io is the number one chat messaging platform that allows you to build scalable and custom chat applications using its APIs.
+Node MongoDB eCommerce Rest API using Stripe payment method. Node.js shopping API tutorial using express, MongoDB, and JWT for beginners.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +108,7 @@ GetStream.io is the number one chat messaging platform that allows you to build 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[product-screenshot]: src\assests\banner.png
+[product-screenshot]: https://github.com/erick-hz/ecommer-api/blob/main/src/assests/banner.png
 [Node-js]: https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white
 [Node-url]: https://nodejs.org/en
 
