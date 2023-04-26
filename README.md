@@ -1,5 +1,5 @@
 
-# Node.js E-Commerce App REST API with MongoDB | Shopping API with Stripe & JWT
+# ecommer-api
 
 <a name="readme-top"></a>
 <!-- PROJECT LOGO -->
@@ -14,14 +14,14 @@
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
-    <a href="https://github.com/erick-hz/project_medical_pager_chat-"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/erick-hz/ecommer-api"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/erick-hz/project_medical_pager_chat-">View Demo</a>
+    <a href="https://github.com/erick-hz/ecommer-api">View Demo</a>
     ·
-    <a href="https://github.com/erick-hz/project_medical_pager_chat-/issues">Report Bug</a>
+    <a href="https://github.com/erick-hz/ecommer-api/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/erick-hz/ecommer-api/issues">Request Feature</a>
   </p>
 </div>
 
