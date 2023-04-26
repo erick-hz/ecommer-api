@@ -63,9 +63,7 @@ Node MongoDB eCommerce Rest API using Stripe payment method. Node.js shopping AP
 ### Built With
 
  [![Node][Node-js]][Node-url]
- 
  ![Express](https://img.shields.io/badge/-Express-E44D27?style=flat-square&logo=express&logoColor=ffffff)
-
  ![Mongodb](https://img.shields.io/badge/-Mongodb-E44D27?style=flat-square&logo=mongodb&logoColor=ffffff)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
