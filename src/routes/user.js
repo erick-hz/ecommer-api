@@ -1,12 +1,30 @@
 const router = require('express').Router();
+const { verifyToken, verifyTokenAndAuthorization } = require('./verifyToken');
 
-// router.get('/usertest', (req, res) => {
-//     res.send('user test is successful!');
-// });
+// UPDATE
+//UPDATE
+router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
+    if (req.body.password) {
+        req.body.password = CryptoJS.AES.encrypt(
+            req.body.password,
+            process.env.PASS_SEC
+        ).toString();
+    }
 
-// router.post('/userpost', (req, res) => {
-//     const username = req.body.username;
-//     res.send('Hello ' + username);
-// });
+    try {
+        const updatedUser = await User.findByIdAndUpdate(
+            req.params.id,
+            {
+                $set: req.body,
+            },
+            { new: true }
+        );
+        res.status(200).json(updatedUser);
+    } catch (err) {
+        res.status(500).json(err);
+    }
+});
+
+
 
 module.exports = router;
